@@ -30,6 +30,7 @@ public class MouseLook : MonoBehaviour {
 	void Update ()
 	{
 		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 
 		if (axes == RotationAxes.MouseXAndY)
 		{
